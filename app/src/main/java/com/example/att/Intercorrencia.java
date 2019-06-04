@@ -9,7 +9,7 @@ import android.widget.EditText;
 
 public class Intercorrencia extends AppCompatActivity {
 
-    String intercorrencia,observacoes;
+    String intercorrencia,observacoes,tt;
 
 
     EditText inter_Input ;

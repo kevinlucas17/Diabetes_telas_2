@@ -22,6 +22,9 @@ public class Intercorrencia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intercorrencia);
         setTitle("Intercorrência");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setTitle("Intercorrência");
 
         inter_Input = (EditText) findViewById(R.id.input_intercorrencia);
         observa_Input = (EditText) findViewById(R.id.input_observacao);
@@ -41,11 +44,5 @@ public class Intercorrencia extends AppCompatActivity {
 
     }
 
-
-
-    /*public String valores(){
-        String
-        return
-    }*/
 
 }

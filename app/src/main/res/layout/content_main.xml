@@ -9,12 +9,11 @@
     tools:showIn="@layout/app_bar_main">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_exame"
         android:layout_width="108dp"
         android:layout_height="46dp"
         android:layout_marginStart="167dp"
         android:layout_marginLeft="167dp"
-        android:layout_marginTop="252dp"
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
         android:onClick="irParaexame"
@@ -22,10 +21,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="252dp" />
 
     <Button
-        android:id="@+id/button_intercorrencia"
+        android:id="@+id/button_historico"
         android:layout_width="108dp"
         android:layout_height="46dp"
         android:layout_marginStart="167dp"
@@ -40,7 +39,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button_exame"
         app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button_historico"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="50dp"
+        android:text="historico"
+        app:layout_constraintBottom_toTopOf="@+id/button_exame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="irparahistorico"/>
 
 </android.support.constraint.ConstraintLayout>

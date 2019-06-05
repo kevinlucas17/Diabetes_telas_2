@@ -12,27 +12,26 @@ public class Intercorrencia extends AppCompatActivity {
     String intercorrencia,observacoes,tt;
 
 
-    EditText inter_Input ;
+    /*EditText inter_Input ;
     EditText observa_Input;
     EditText data_Input;
-    Button salvarButton;
+    Button salvarButton;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intercorrencia);
-        setTitle("Intercorrência");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setTitle("Intercorrência");
 
-        inter_Input = (EditText) findViewById(R.id.input_intercorrencia);
+        /*inter_Input = (EditText) findViewById(R.id.input_intercorrencia);
         observa_Input = (EditText) findViewById(R.id.input_observacao);
 
         data_Input = (EditText) findViewById(R.id.input_data);
-        salvarButton = (Button)findViewById(R.id.button_salvar);
+        salvarButton = (Button)findViewById(R.id.button_salvar);*/
 
-        salvarButton.setOnClickListener(new View.OnClickListener() {
+        /*salvarButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intercorrencia = inter_Input.getText().toString();
@@ -40,7 +39,7 @@ public class Intercorrencia extends AppCompatActivity {
 
 
             }
-        });
+        });*/
 
     }
 

@@ -20,8 +20,8 @@ public class Hisotico extends AppCompatActivity {
 
         RecyclerView recyclerView =(RecyclerView) findViewById(R.id.recycler); // cria o recycler
 
-        List<Historico_banco> historico_banco; //recupera do banco bas infos
-        recyclerView.setAdapter(new NovoAdapter(historico_banco));
+       // List<Historico_banco> historico_banco; //recupera do banco bas infos
+        //recyclerView.setAdapter(new NovoAdapter(historico_banco));
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

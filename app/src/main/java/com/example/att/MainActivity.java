@@ -107,4 +107,9 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(getApplicationContext(),Intercorrencia.class);
         startActivity(intent);
     }
+
+    public void irparahistorico(View view) {
+        Intent intent = new Intent(getApplicationContext(),Hisotico.class);
+        startActivity(intent);
+    }
 }

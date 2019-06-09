@@ -8,6 +8,7 @@ import java.util.List;
 
 class NovoAdapter extends RecyclerView.Adapter{
 
+    /* Adapter RecyclerView*/
     private List<Historico_banco> historico_banco;
     public NovoAdapter(List<Historico_banco> historico_banco){
         this.historico_banco = historico_banco;
